@@ -1,0 +1,81 @@
+.review {
+    width: 543px;
+    height: 229px;
+    background: #F1F1F1;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 29px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.review_content {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.review_left img {
+    width: 70%;
+}
+
+.review_right h1 {
+    font-family: 'Russo One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 21px;
+    color: #2194FF;
+}
+
+.review_right h2 {
+    font-family: 'Russo One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: #2D2D2D;
+    padding: 3px 0 10px 0;
+}
+
+.review_right p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 16px;
+    width: 315px;
+    color: #2D2D2D;    
+}
+
+@media (max-width: 700px) {
+    .review {
+        width: 315px;
+        height: 400px;
+    }
+    
+    .review_content {
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .review_right {
+        text-align: center;
+    }
+
+    .review_left {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 400px) {
+    .review_right p {
+        font-size: 11px;
+        width: 250px;
+    }
+
+    .review {
+        width: 250px;
+    }
+}

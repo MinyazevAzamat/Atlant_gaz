@@ -1,0 +1,157 @@
+.appeal {
+    background: #222222;
+    height: 100vh;
+} 
+
+.appeal_text_button img {
+    background: transparent;
+}
+
+.appeal_header {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 13px;
+    padding-bottom: 150px;
+}
+
+.appeal_text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.appeal_header_number {
+    padding-top: 6px;
+}
+
+.appeal_header_number p {
+    font-family: 'Russo One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 21px;
+    color: #F1F1F1;    
+}
+
+.appeal_header_number a {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+    text-decoration-line: underline;
+    color: #2194FF;    
+}
+
+.appeal_text h1 {
+    font-family: 'Russo One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 41px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #2194FF;    
+}
+
+.appeal_text h2 {
+    font-family: 'Russo One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;  
+    color: #F1F1F1;    
+    padding: 19px 0 36px 0;
+}
+
+.appeal_text_button {
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+}
+
+.appeal_text_button a {
+    font-family: 'Russo One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #F1F1F1;
+    text-shadow: 1px 2px 0px rgba(0, 0, 0, 0.25);
+    text-decoration: none;
+    display: flex;
+    text-align: center;
+    border: 4px solid #108CFF ;
+    background: #2194FF;
+    box-shadow: inset 0px 4px 10px rgba(0, 0, 0, 0.45);
+    border-radius: 13px;
+    padding: 12px 45px;
+}
+
+.footer_up {
+    position: absolute;
+    left: 5px;
+    top: 0;
+}
+
+.footer_down {
+    position: absolute;
+    bottom: 0px;
+    left: 10px;
+}
+
+@media (max-width: 550px) {
+    .appeal_header {
+        flex-direction: column-reverse;
+        align-items: center;
+        padding-top: 13px;
+        padding-bottom: 150px;
+    }
+
+    .appeal_header_number {
+        padding-top: 6px;
+        padding-bottom: 20px;
+    }
+
+    
+    .appeal_text h1 {
+        font-size: 24px;
+    }
+
+    .appeal_text h2 {
+        font-size: 13px;
+    }
+
+    .appeal_text_button a {
+        font-size: 11px;
+        border-radius: 10px;
+        padding: 8px 32px;
+    }
+
+    .appeal_text_button img {
+        width: 95%;
+        height: 95%;
+    }
+
+    .app_up {
+        left: 5px;
+        top: -7px;
+    }
+    
+    .app_down {
+        bottom: -9px;
+        left: 8px;
+    }
+
+    .appeal_header {
+        display: flex;
+        justify-content: space-around;
+        padding-top: 13px;
+        padding-bottom: 50px;
+    }
+}

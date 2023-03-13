@@ -1,0 +1,49 @@
+.politic {
+    background: #222222;
+    height: 100vh; 
+}
+.politic_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    background: #222222;
+}
+
+.politic h1 {
+    font-size: 30px;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color: #f2f2f2;
+    padding: 20px 30px;
+    background: #222222;
+}
+
+.politic h2 {
+    font-size: 25px;
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color: #f2f2f2;
+    padding: 10px 30px;
+    background: #222222;
+}
+
+.politic p {
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+    color: #f2f2f2;
+    padding: 5px 30px;
+    background: #222222;
+}
+
+.politic a {
+    font-size: 20px;
+    color: #f2f2f2;
+    text-decoration: underline;
+    text-align: center;
+    background: #222222;
+}

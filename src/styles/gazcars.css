@@ -1,0 +1,72 @@
+.gazcars {
+    background: #2194ff0D;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gazcars h1 {
+    font-family: 'Russo One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 31px;
+    text-align: center;
+    padding: 25px 0;
+    color: #2194FF;    
+}
+
+
+.btn {
+    width: 118px;
+    height: 46px;
+    background: rgba(241, 241, 241, 0.2);
+    border-radius: 14px;
+    font-family: 'Russo One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    text-align: center; 
+    color: #F1F1F1;   
+    border: none;
+    text-shadow: 1px 2px 0px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+    margin: 0 9px 26px 9px;
+}
+
+.btn.active {
+    background: #2194FF;
+}
+
+@media (max-width: 563px) {
+    .gazcars_buttons {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 426px) {
+     .gazcars img {
+        width: 70%;
+        height: 70%;
+     }
+
+     .gazcars h1 {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 407px) {
+    .order_center img {
+        width: 310px;
+        height: 140px;
+    }
+
+    .autopark_content img {
+        width: 291px;
+        height: 131px;
+    }
+}

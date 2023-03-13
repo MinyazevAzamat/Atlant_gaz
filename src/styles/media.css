@@ -1,0 +1,448 @@
+@media (max-width:1223px) {
+    .header_content {
+        padding: 13px 0 0 150px;
+    }
+    .header_content_left_track img {
+        left: 480px;
+        width: 521px;
+        height: 309px;
+        
+    }
+}
+
+@media (max-width:1020px) {
+    .header_content {
+        padding: 13px 0 0 100px;
+    }
+    .header_content_left_track img {
+        left: 400px;
+        width: 434px;
+        height: 257px; 
+        top: 130px;   
+    }
+}
+
+@media (max-width: 925px) {
+    .header_content_right {
+        padding-left: 50px;
+        padding-top: 15px;
+    }
+
+    .autopark_content {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .autopark_content img {
+        padding-top: 40px;
+    }
+
+    .autopark_text p {
+        text-align: center;
+    }
+
+}
+
+@media (max-width: 853px) {
+    .header_content {
+        padding: 13px 0 0 50px;
+    }
+
+    .header_content_left_track img {
+        left: 350px;
+    }
+    
+}
+
+@media (max-width: 819px) {
+    .header_content {
+        padding: 13px 0 0 0;
+    }
+
+    .header_content_left_track img {
+        position: static;
+    }
+
+    .header_content {
+        flex-direction: column-reverse;
+        align-items: center;
+        padding: 13px 0 0 0;
+    }
+
+    .header_content_right {
+        padding-left: 0;
+        padding-top: 15px;
+    }
+
+    .header_content_left_logo {
+        justify-content: center;
+        padding-top: 20px;
+    }
+
+    .header_content_left_diliver {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header_content_left_diliver h2 {
+        padding: 10px 116px 29px 0;
+    }
+
+    .dash_arrow {
+        left: 265px;
+    }
+
+    .header_content_left_icons {
+        justify-content: center;
+    }    
+
+    .header {
+        padding-bottom: 30px;
+        background: #222222;
+    }
+
+    .order_bottom {
+        position: relative;
+    }
+
+    .order_arrows {
+        top: 777px;
+    }
+
+    .answers_list {
+        width: 500px;
+    }
+
+    .footer_map_content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer_map_left {
+        border-radius: 24px;
+    }
+
+    .footer_map img {
+        border-radius: 40px;
+        padding-top: 30px;
+    }
+
+    .order_bottom {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .order_left {
+        padding-bottom: 40px;
+        align-items: center;
+    }
+
+    .order_right {
+        padding-top: 0;
+        padding-bottom: 50px;
+        align-items: center;
+    }
+
+    .order span {
+        text-align: center;
+    }
+
+    .neft_images {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .neft_img {
+        margin: 10px 6px;
+    }
+}
+
+@media (max-width: 790px) {
+    .pros_bottom {
+        width: 600px;
+        justify-content: center;
+    }
+
+    .pros_block, .pros_block2, .pros_block3 {
+        margin: 0;
+        padding: 20px;
+    }
+}
+
+@media (max-width: 740px) {
+    .ask_form_content {
+       flex-direction: column;
+       align-items: center;
+    }
+
+    
+    .ask_form_left {
+        align-items: center;
+        padding-bottom: 30px;
+    }
+
+    .ask_form_left textarea {
+        margin: 17px 0px;
+    }
+
+    .ask_form_left h1 {
+        text-align: center;
+    }
+}
+
+@media (max-width: 620px) {
+    .pros_bottom {
+        width: 320px;
+    }
+}
+
+@media (max-width: 564px) {
+    .answers_list {
+        width: 315px;
+    }
+
+    .answer p {
+        font-size: 10px;
+    }
+
+    .answers_content h1 {
+        font-size: 21px;
+    }
+
+    .ask_form_left h1 {
+        font-size: 23px;;
+    }
+
+    .footer_order p {
+        font-size: 21px;
+    }
+
+    .answer span {
+        font-size: 10px;
+    }
+
+    .pros_top h1 {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 467px) {    
+    .header_content_left_logo {
+        padding-bottom: 17px;
+    }
+
+    .header_content_left_logo img {
+        width: 137px;
+        height: 50px;
+    }
+    
+    .header_content_left_logo p {
+        font-size: 9px;
+        line-height: 9px;
+        padding-left: 10px;
+        margin-left: 10px;
+        margin-top: 21px; 
+    }
+    
+    .icons img:nth-child(2) {
+        padding: 0 4px;
+    }
+    
+    .header_content_left_icons span {
+        font-size: 8px;
+        line-height: 11px;
+    }
+    
+    .header_content_left_icons_day {
+        padding: 0 17px 6px 0;
+    }
+    
+    .header_content_left_diliver {
+        padding-bottom: 21px;
+    }
+    
+    .header_content_left_diliver h1 {
+        font-size: 33px;
+        line-height: 32px;
+    }
+    
+    .header_content_left_diliver h2 {
+        font-size: 12px;
+        line-height: 15px;
+        padding: 7px 83px 21px 0;
+    }
+    
+    .header_content_left_diliver a {
+        font-size: 11px;
+        line-height: 14px;
+        border: 3px solid #108CFF ;
+        border-radius: 10px;
+        padding: 9px 32px;
+    }
+    
+    .header_content_left_diliver span {
+        font-size: 9px;
+        line-height: 26px;
+        padding: 6px 0 0 18px;
+    }
+    
+    .dash_arrow {
+        top: 71px;
+        left: 240px;
+        width: 54px;
+        height: 58px;
+    }
+    
+    .header_content_left_track img {
+        width: 410px;
+        height: 243px;
+        
+    }
+    
+    .header_content_right {
+        padding-top: 7px;
+    }
+    
+    .header_content_right p {
+        font-size: 12px;
+        line-height: 15px;
+        padding: 3px 0;
+    }
+    
+    .header_content_right a {
+        font-size: 8px;
+        line-height: 11px;
+    }
+
+    .header_content_left_diliver_button img {
+        width: 198px;
+    }
+}
+
+@media (max-width: 470px) {
+    .autopark h1 {
+        width: 300px;
+        text-align: center;
+    }
+
+    .autopark_content img {
+        width: 321px;
+        height: 145px;
+    }
+
+    .autopark_text p, .autopark_text span {
+        font-size: 21px;
+    }
+}
+
+@media (max-width: 430px) {
+    .header_content_left_track img, .dash_arrow{
+        display: none;
+    }
+
+    .header_content_left_diliver h2 {
+        padding: 7px 0 21px 0;
+    }
+
+    .header_content_left_diliver h1 {
+        text-align: center;
+    }
+
+    .footer_map Iframe {
+        width: 300px;
+        height: 268px;
+    }
+
+    .footer_map_left {
+        width: 313px;
+        height: 268px;
+        border-radius: 18px;
+    }
+
+    .footer_map_left h1 {
+        font-size: 20px;
+        line-height: 24px;
+        padding: 22px 0 9px 22px;
+    }
+
+    .footer_map_left p {
+        font-size: 10px;
+        line-height: 14px;
+        padding-bottom: 11px;
+        margin-left: 22px;
+        width: 230px;
+    }
+
+    .footer_map_left h2 {
+        font-size: 10px;
+        line-height: 14px;
+        padding: 17px 0 2px 22px;
+    }
+
+    .footer_map_left span {
+        font-size: 10px;
+        line-height: 14px;
+        padding: 0 0 8px 22px;
+    } 
+    
+    .slider_h1 h1 {
+        font-size: 23px;
+    }
+}
+
+@media (max-width: 407px) {
+    .order_arrows {
+        top: 700px;
+    }
+
+    .master_name {
+        top: 234px;
+        right: 110px;
+    }
+}
+
+@media (max-width: 362px) {
+    .footer_order p {
+        font-size: 18px;
+    }
+
+    .ask_form_left h1 {
+        font-size: 20px;
+    }
+
+    .answers_content h1 {
+        font-size: 18px;
+    }
+
+    .answer p {
+        font-size: 9px;
+    }
+
+    .autopark_text p, .autopark_text span {
+        font-size: 17px;
+    }
+
+    .autopark h1 {
+        width: 270px;
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 340px) {
+    .answers_list {
+        width: 250px;
+    }
+
+    .punkt {
+        padding: 17px 0 17px 15px;
+    }
+
+    .punkt img {
+        left: 2px;
+    }
+
+    .pros_bottom {
+        width: 279px;
+    }
+}

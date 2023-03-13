@@ -1,0 +1,149 @@
+.modal {
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background: #2D2D2DE5;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: scale(0);
+}
+
+.modal.active {
+    transform: scale(1);
+}
+
+.modal_content {
+    width: fit-content;
+    height: fit-content;
+    text-align: center;
+}
+
+.modal_block {
+    width: 340px;
+    height: 292px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 24px;
+    position: relative;
+    z-index: 2;
+}
+
+.modal_block h1 {
+    font-family: 'Russo One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 21px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #2194FF;
+    padding: 21px 0 19px 21px;
+    text-align: left;
+}
+
+.name_modal {
+    margin: 0 0 0 21px;
+}
+
+.tel_modal {
+    margin: 17px 0 30px 21px;
+}
+
+.modal_block input::placeholder {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 9px;
+    line-height: 12px;
+    text-transform: uppercase;
+    color: rgba(45, 45, 45, 0.5);
+}
+
+.modal_button {
+    margin-left: 47px;
+}
+
+.modal_button a {
+    padding: 12px 28px;
+}
+
+.modal_content span {
+    font-family: 'Open Sans';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 14px;
+    color: #FFFFFF;
+    opacity: 0.6;
+    padding-top: 14px;
+}
+
+.cross {
+    cursor: pointer;
+    position: absolute;
+    top: 21px;
+    right: 21px;
+}
+
+.cross::before, .cross::after {
+    content: "";
+    position: absolute;
+    width: 21px;
+    height: 2px;
+    background: #2194FF;
+    top: 16px;
+    right: 10px;
+}
+
+.cross::before {
+    transform: rotate(45deg);
+}
+
+.cross::after {
+    transform: rotate(-45deg);
+}
+
+@media (max-width: 400px) {
+
+    .modal_block {
+        width: 309px;
+        height: 265px;
+        border-radius: 21px;
+    }
+    
+    .modal_block h1 {
+        font-size: 17px;
+        line-height: 21px;
+        padding: 21px 0 19px 21px;
+    }
+    
+    .modal_button {
+        margin-left: 42px;
+    }
+    
+    .modal_button a {
+        padding: 10px 25px;
+    }
+    
+    .modal_content span {
+        font-size: 10px;
+        line-height: 12px;
+    }
+
+    .name_modal, .tel_modal{
+        width: 260px;
+        padding-left: 14px;
+    }
+
+    .name_modal {
+        margin: 0 0 0 15px;
+    }
+    
+    .tel_modal {
+        margin: 17px 0 30px 15px;
+    }
+}
